@@ -12,6 +12,8 @@
 		EF47F28A1F0CC755004A08D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47F2881F0CC755004A08D3 /* Main.storyboard */; };
 		EF47F28C1F0CC755004A08D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF47F28B1F0CC755004A08D3 /* Assets.xcassets */; };
 		EF47F28F1F0CC755004A08D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47F28D1F0CC755004A08D3 /* LaunchScreen.storyboard */; };
+		EF47F2971F0CC784004A08D3 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F2961F0CC784004A08D3 /* TaskModel.swift */; };
+		EF47F29B1F0CC8C8004A08D3 /* TableViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F29A1F0CC8C8004A08D3 /* TableViewDatasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EF47F28B1F0CC755004A08D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF47F28E1F0CC755004A08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF47F2901F0CC755004A08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47F2961F0CC784004A08D3 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		EF47F29A1F0CC8C8004A08D3 /* TableViewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDatasource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EF47F28B1F0CC755004A08D3 /* Assets.xcassets */,
 				EF47F28D1F0CC755004A08D3 /* LaunchScreen.storyboard */,
 				EF47F2901F0CC755004A08D3 /* Info.plist */,
+				EF47F2961F0CC784004A08D3 /* TaskModel.swift */,
+				EF47F29A1F0CC8C8004A08D3 /* TableViewDatasource.swift */,
 			);
 			path = Test_Task2_TableViewMVC_ToDoList;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF47F2971F0CC784004A08D3 /* TaskModel.swift in Sources */,
+				EF47F29B1F0CC8C8004A08D3 /* TableViewDatasource.swift in Sources */,
 				EF47F2871F0CC755004A08D3 /* ViewController.swift in Sources */,
 				EF47F2851F0CC755004A08D3 /* AppDelegate.swift in Sources */,
 			);
